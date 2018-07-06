@@ -9,5 +9,11 @@
 8.git log --pretty=oneline
 9.git reset --hard HEAD^ //版本前进 回退 HEAD为当前版本
 10.git reflog //查看操作日志
-11.
-12.
+11.git checkout -- readme.txt //让这个文件回到最近一次git commit或git add时的状态。
+12.git reset HEAD readme.txt //可以把暂存区的修改撤销掉（unstage），重新放回工作区
+13.git rm readme.txt //用于删除一个文件
+
+14.ssh-keygen -t rsa -C "youremail@example.com" //创建远程ssh
+15.git remote add origin https://github.com/nhl2000/learngit.git
+16.git push -u origin master
+17.git push origin master
