@@ -9,3 +9,4 @@
 8.git log --pretty=oneline
 9.git reset --hard HEAD^ //版本前进 回退 HEAD为当前版本
 10.git reflog //查看操作日志
+11.
