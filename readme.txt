@@ -15,7 +15,16 @@
 
 14.ssh-keygen -t rsa -C "youremail@example.com" //创建远程ssh
 15.git remote add origin https://github.com/nhl2000/learngit.git
+15.git remote add origin git@github.com:nhl2000/learngit.git
 16.git push -u origin master
 17.git push origin master
 
-18.test master
+18.git clone git@github.com:nhl2000/learngit.git
+
+19.git branch //命令会列出所有分支，当前分支前面会标一个*号。
+19.git branch dev //创建dev分支
+20.git checkout dev //切换分支到dev
+20.git checkout master //切换分支到master
+21.git merge dev //合并 dev 分支
+22.git branch -d dev //删除dev分支
+
