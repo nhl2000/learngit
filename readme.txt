@@ -17,3 +17,5 @@
 15.git remote add origin https://github.com/nhl2000/learngit.git
 16.git push -u origin master
 17.git push origin master
+
+18.test master
