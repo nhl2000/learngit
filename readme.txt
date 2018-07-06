@@ -28,3 +28,6 @@
 21.git merge dev //合并 dev 分支
 22.git branch -d dev //删除dev分支
 
+23.git log --graph //可以看到分支合并图
+
+24.
