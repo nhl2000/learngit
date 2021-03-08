@@ -10,3 +10,6 @@ git reset --hard HEAD^
 git reset --hard abcde
 git reflog
 git log
+git checkout -- a.txt
+
+
